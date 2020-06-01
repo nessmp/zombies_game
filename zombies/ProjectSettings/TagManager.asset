@@ -3,7 +3,24 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fire
+  - Pistol
+  - battery
+  - Zombie
+  - Health
+  - Barrel_Red
+  - Player_Message
+  - Barrel_White
+  - Barrel_Blue
+  - Barrel_Plastic
+  - Alien_Beam
+  - Round
+  - Barrel_Red_Alien_Beam
+  - Barrel_White_Alien_Beam
+  - Barrel_Blue_Alien_Beam
+  - Barrel_Plastic_Alien_Beam
+  - Bullets
   layers:
   - Default
   - TransparentFX
@@ -13,7 +30,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Player
   - 
   - 
   - 
