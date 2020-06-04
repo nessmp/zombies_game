@@ -54,22 +54,25 @@ public class GunAnimations : MonoBehaviour {
     }
     
     void Update () {
-        if (this.animator.GetCurrentAnimatorStateInfo(0).
-          IsName("gun_shooting") || 
-          this.animator.GetCurrentAnimatorStateInfo(0).
-          IsName("gun_reloading")) {
-            animator.SetBool("Fire", false);
-        } else if (Input.GetKeyDown(KeyCode.Mouse0)) {
-            if (ammo <= 0) {
-                reload = true;
+        if(!PauseMenu.GameIsPaused)
+        {
+            if (this.animator.GetCurrentAnimatorStateInfo(0).
+            IsName("gun_shooting") || 
+            this.animator.GetCurrentAnimatorStateInfo(0).
+            IsName("gun_reloading")) {
+                animator.SetBool("Fire", false);
+            } else if (Input.GetKeyDown(KeyCode.Mouse0)) {
+                if (ammo <= 0) {
+                    reload = true;
+                } else {
+                    RayCastController.shoot = true;
+                    animator.SetBool("Fire", true);
+                    fire_audio.Play(0);
+                    ammo--;
+                }
             } else {
-                RayCastController.shoot = true;
-                animator.SetBool("Fire", true);
-                fire_audio.Play(0);
-                ammo--;
+                animator.SetBool("Fire", false);
             }
-        } else {
-            animator.SetBool("Fire", false);
         }
 
         if ((Input.GetKeyDown(KeyCode.R) || reload) && ammo != 8 && !this.
