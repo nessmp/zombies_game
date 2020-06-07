@@ -9,10 +9,12 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
 
     public GameObject pauseMenuUI;
+    public GameObject ControlsUI;
 
     private void Start() 
     {
         pauseMenuUI.SetActive(false);
+        ControlsUI.SetActive(false);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -49,6 +51,16 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = true;
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
+    }
+
+    public void OpenControls()
+    {
+        ControlsUI.SetActive(true);
+    }
+
+    public void CloseControls()
+    {
+        ControlsUI.SetActive(false);
     }
 
     public void QuitGame()
