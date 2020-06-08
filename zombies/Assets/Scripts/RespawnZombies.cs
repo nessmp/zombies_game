@@ -8,10 +8,11 @@ public class RespawnZombies : MonoBehaviour {
 
     int round = 1;
     int spawned_zombies = 0;
-    float seconds_between_rounds = 30.0f;
+    const float seconds_between_rounds = 30.0f;
     float timer = 0.0f;
 
     GameObject respawn;
+
     void Start() {
         respawn = GameObject.FindWithTag("Respawn");
         original_zombie.SetActive(false);

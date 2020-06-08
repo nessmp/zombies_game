@@ -15,6 +15,8 @@ public class PauseMenu : MonoBehaviour
 
     private void Start() 
     {
+        GameIsPaused = false;
+
         pauseMenuUI.SetActive(false);
         ControlsUI.SetActive(false);
         Cursor.visible = false;

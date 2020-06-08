@@ -30,6 +30,13 @@ public class GunAnimations : MonoBehaviour {
     bool reload = false;
     
     void Start () {
+        health = 100;
+        kill_count = 0;
+        red_barrel = false;
+        white_barrel = false;
+        plastic_barrel = false;
+        blue_barrel = false;
+
         animator = GetComponent<Animator>();
 
         GameObject battery_game_object = GameObject.FindWithTag("battery");

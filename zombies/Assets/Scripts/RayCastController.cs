@@ -11,7 +11,10 @@ public class RayCastController : MonoBehaviour {
     private Vector3 raycast_origin;
     private Vector3 raycast_direction;
     GameObject bullets;
+
     void Start() {
+      shoot = false;
+
       bullets = GameObject.FindWithTag("Bullets");
       bullet.SetActive(false);
     }
