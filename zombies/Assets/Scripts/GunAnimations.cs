@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -102,6 +103,10 @@ public class GunAnimations : MonoBehaviour {
         Text health_text = GameObject.FindWithTag("Health").
           GetComponent<Text>();
         health_text.text = "Health: " + health;
+
+        if (health <= 0) {
+            SceneManager.LoadScene("Lost");
+        }
     }
 
 }
