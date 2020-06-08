@@ -15,10 +15,6 @@ public class StartController : MonoBehaviour
     public void ChangeScene(string scene)
     {
         SceneManager.LoadScene(scene);
-        if (scene == "exit")
-        {
-            Application.Quit();
-        }        
     }
 
     public void QuitGame()
