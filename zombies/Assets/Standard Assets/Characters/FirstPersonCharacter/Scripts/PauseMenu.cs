@@ -11,6 +11,8 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
     public GameObject ControlsUI;
 
+    private bool ControlsIsShowing = false;
+
     private void Start() 
     {
         pauseMenuUI.SetActive(false);
@@ -25,7 +27,14 @@ public class PauseMenu : MonoBehaviour
         {
             if (GameIsPaused)
             {
-                Resume();
+                if (ControlsIsShowing) 
+                {
+                    CloseControls();
+                }
+                else
+                {
+                    Resume();
+                }
             }
             else
             {
@@ -56,11 +65,13 @@ public class PauseMenu : MonoBehaviour
     public void OpenControls()
     {
         ControlsUI.SetActive(true);
+        ControlsIsShowing = true;
     }
 
     public void CloseControls()
     {
         ControlsUI.SetActive(false);
+        ControlsIsShowing = false;
     }
 
     public void QuitGame()
