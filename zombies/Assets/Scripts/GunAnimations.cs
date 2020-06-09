@@ -107,13 +107,14 @@ public class GunAnimations : MonoBehaviour {
             alien_beam.SetActive(true);
         }
 
+        if (health <= 0) {
+            health = 0;
+            ScreenFaderInController.UnchangablySetFadeInOfLost();
+        }
+
         Text health_text = GameObject.FindWithTag("Health").
           GetComponent<Text>();
         health_text.text = "Health: " + health;
-
-        if (health <= 0) {
-            SceneManager.LoadScene("Lost");
-        }
     }
 
 }

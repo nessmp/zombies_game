@@ -19,7 +19,7 @@ public class ChangeScene : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider) {
         if (collider.gameObject.tag == "Player") {
-            SceneManager.LoadScene("Victory");
+            ScreenFaderInController.UnchangablySetFadeInOfVictory();
         }
     }
 }
