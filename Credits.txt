@@ -1,1 +1,9 @@
 Menu Font: 28 Days Later by Jens R. Ziehn. Available: https://www.1001freefonts.com/28-days-later.font
+
+SFX:
+Sci-Fi Weapon Reloadin by 18hiltc. https://freesound.org/people/18hiltc/sounds/210604/
+Sci-Fi Force Field Impact 15 by StormwaveAudio. https://freesound.org/people/StormwaveAudio/sounds/330629/
+inspect item by niamhd00145229. https://freesound.org/people/niamhd00145229/sounds/422709/
+energy by Leszek_Szary. https://freesound.org/people/Leszek_Szary/sounds/146733/
+
+Assets:
