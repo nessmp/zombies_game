@@ -1,8 +1,19 @@
-Menu Font: 28 Days Later by Jens R. Ziehn. Available: https://www.1001freefonts.com/28-days-later.font
+Menu Font: 
+28 Days Later by Jens R. Ziehn. https://www.1001freefonts.com/28-days-later.font
 
 SFX:
 Sci-Fi Weapon Reloadin by 18hiltc. https://freesound.org/people/18hiltc/sounds/210604/
 Sci-Fi Force Field Impact 15 by StormwaveAudio. https://freesound.org/people/StormwaveAudio/sounds/330629/
 inspect item by niamhd00145229. https://freesound.org/people/niamhd00145229/sounds/422709/
 energy by Leszek_Szary. https://freesound.org/people/Leszek_Szary/sounds/146733/
-El sonido de las cosas, "Sonido de risa macabra", 23 sep 2016 de: https://www.youtube.com/watch?v=s49I0_CeTOo
+Sonido de risa macabra by El sonido de las cosas. https://www.youtube.com/watch?v=s49I0_CeTOo
+typewriter by BMacZero. https://freesound.org/people/BMacZero/sounds/160678/
+
+Assets:
+4 Industrial barrels by Vertex Field. https://assetstore.unity.com/packages/3d/props/4-industrial-barrels-76538#reviews
+48 Particle Effect Pack by GAPH. https://assetstore.unity.com/packages/vfx/particles/spells/48-particle-effect-pack-13998
+Sci Fi Gun by MASH Virtual. https://assetstore.unity.com/packages/3d/props/guns/sci-fi-gun-162872
+Free Zombie Character Sounds by Idia Software LLC. https://assetstore.unity.com/packages/audio/sound-fx/creatures/free-zombie-character-sounds-141740
+Zombie by Pxltiger. https://assetstore.unity.com/packages/3d/characters/humanoids/zombie-30232
+Flooded Grounds by Sandro T. https://assetstore.unity.com/packages/3d/environments/flooded-grounds-48529
+Standard Assets (for Unity 2017.3) by Unity Technologies. https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2017-3-32351#content
